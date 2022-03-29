@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(143, 143, 143);
+}
+#cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 90%;
+    background-color: #fff;
+}
+p{
+    color: #232341;
+    font-size: 14px;
+}
+
+#main #one{
+    display: flex;
+    padding: 5% 15px;
+    font-size: 20px;
+    color: #11113f;
+}
+#main #one i{
+    margin-top: 3px;
+    margin-right: 7%;
+}
+
+#main #two{
+    display: flex;
+    padding: 0 20px;
+}
+
+#main #two i{
+    margin-right: 7%;
+    font-size: 22px;
+}
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+
+#main #three{
+    margin-top: 13px;
+    display: flex;
+    padding: 0 20px;
+}
+#main #three i{
+    margin-right: 7%;
+    font-size: 22px;
+}
+#main #four{
+    margin-top: 13px;
+    display: flex;
+    padding: 0 20px;
+}
+#main #five{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#main #six{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#main #seven{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#main #eight{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+} 
+#main #nine{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 15px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(204, 204, 204);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    top: -1.2px;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #673EB4;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+  
+input:checked + .slider {
+    background-color: #d5acdf;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+@media(max-width: 450px){
+    #cont{
+        width: 95%;
+        height: 80%;
+    }
+}
+@media(max-width: 800px){
+    #cont{
+        width: 95%;
+        height: 80%;
+    }
+}
+@media(max-width: 900px){
+    #cont{
+        width: 95%;
+        height: 80%;
+    }
+}
+@media(max-width: 1150px){
+    #cont{
+        width: 95%;
+        height: 80%;
+    }
+}
